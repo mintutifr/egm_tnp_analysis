@@ -21,7 +21,7 @@ flags = {
     'passHltEle32WPTightGsfEta2p1' : '(passHltEle32WPTightGsfEta2p1 == 1)'
     }
 
-baseOutDir = 'results/UL2016_preVFP/tnpEleID/'
+baseOutDir = 'results/UL2016_preVFP/tnpEleTrig/'
 
 #############################################################
 ########## samples definition  - preparing the samples
@@ -29,7 +29,7 @@ baseOutDir = 'results/UL2016_preVFP/tnpEleID/'
 ### samples are defined in etc/inputs/tnpSampleDef.py
 ### not: you can setup another sampleDef File in inputs
 import etc.inputs.tnpSampleDef as tnpSamples
-tnpTreeDir = 'tnpEleIDs'
+tnpTreeDir = 'tnpEleTrig'
 
 samplesDef = {
     'data'   : tnpSamples.UL2016_preVFP['data_Run2016B'].clone(),
